@@ -1,7 +1,7 @@
 class AddDataToShow < ActiveRecord::Migration[4.2]
   def change
-    add_column :show, :day, :string 
-    add_column :show, :genre, :string 
-    add_column :show, :season, :string 
+    add_column :shows, :day, :string 
+    add_column :shows, :genre, :string 
+    add_column :shows, :season, :string 
   end
 end
